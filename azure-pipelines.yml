@@ -44,7 +44,7 @@ jobs:
       inputs:
         gitHubConnection: 'github2'
         repositoryName: 'uroni/spksrc'
-        action: 'edit'
+        action: 'create'
         target: '$(Build.SourceVersion)'
         tagSource: 'gitTag'
         assets: '$(Build.ArtifactStagingDirectory)/packages/*.spk'
