@@ -36,9 +36,10 @@ jobs:
     - script: make setup
       displayName: 'make'
 
-    - script: make all-toolchain-6.1
+    - script: make arch-armadaxp-6.1
       displayName: 'make'
       workingDirectory: spk/urbackup
+
     - task: GithubRelease@0
       inputs:
         gitHubConnection: 'github2'
