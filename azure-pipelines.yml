@@ -13,6 +13,7 @@ jobs:
 # Provide a name for the job
 - job: Linux
   displayName: ubuntu default
+  timeoutInMinutes: 360
 
 
   # The VM image to use for the hosted agent. For a list of possible agents
