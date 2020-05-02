@@ -36,7 +36,7 @@ jobs:
     - script: make setup
       displayName: 'make'
 
-    - script: make arch-armadaxp-6.1
+    - script: make arch-x64-6.1
       displayName: 'make'
       workingDirectory: spk/urbackup
 
