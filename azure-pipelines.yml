@@ -40,7 +40,7 @@ jobs:
       workingDirectory: spk/urbackup
     - task: GithubRelease@0
       inputs:
-        gitHubConnection: 'uroni'
+        gitHubConnection: 'github2'
         repositoryName: 'spksrc'
         action: 'create'
         target: '$(build.sourceVersion)'
