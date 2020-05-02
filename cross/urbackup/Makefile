@@ -11,7 +11,7 @@ HOMEPAGE = https://www.urbackup.org/
 COMMENT  = UrBackup is an easy to setup open source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time.
 LICENSE  = GNU GPL
 
-CONFIGURE_ARGS = --enable-packaging --enable-embedded-cryptopp --with-zlib=$(STAGING_INSTALL_PREFIX) #--without-crypto --without-zlib --without-mail 
+CONFIGURE_ARGS = --enable-packaging --enable-embedded-cryptopp --enable-embedded-zstd --with-zlib=$(STAGING_INSTALL_PREFIX) #--without-crypto --without-zlib --without-mail 
 GNU_CONFIGURE = 1
 ADDITIONAL_CXXFLAGS = -Os
 ADDITIONAL_CFLAGS = -Os
